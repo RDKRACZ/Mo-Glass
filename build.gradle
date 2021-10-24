@@ -53,11 +53,11 @@ java {
 	withSourcesJar()
 }
 
-jar {
-	from("LICENSE") {
-		rename { "${it}_${project.archivesBaseName}"}
-	}
-}
+// jar {
+//	from("LICENSE") {
+//		rename { "${it}_${project.archivesBaseName}"}
+//	}
+// }
 
 jar {     
 	exclude('black_stained_glass_corner_bottom_left.psd')     
