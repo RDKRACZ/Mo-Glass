@@ -60,11 +60,11 @@ java {
 // }
 
 jar {     
-	exclude("resources/assets/mo_glass/textures/block/black_stained_glass_corner_bottom_left.psd")     
+	exclude("/assets/mo_glass/textures/block/black_stained_glass_corner_bottom_left.psd")     
 }
 
 jar {     
-	exclude("**/resources/assets/mo_glass/textures/block/black_stained_glass_corner_bottom_left.psd")     
+	exclude("**/assets/mo_glass/textures/block/black_stained_glass_corner_bottom_left.psd")     
 }
 
 // configure the maven publication
