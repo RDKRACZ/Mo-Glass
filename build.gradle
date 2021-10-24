@@ -60,7 +60,11 @@ java {
 // }
 
 jar {     
-	exclude('black_stained_glass_corner_bottom_left.psd')     
+	exclude("black_stained_glass_corner_bottom_left.psd")     
+}
+
+jar {     
+	exclude("*.psd")     
 }
 
 // configure the maven publication
