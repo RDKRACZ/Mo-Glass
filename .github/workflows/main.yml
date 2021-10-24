@@ -12,6 +12,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: 16
+        distribution: 'temurin'
     - name: Cache/Uncache
       uses: actions/cache@v2
       with:
